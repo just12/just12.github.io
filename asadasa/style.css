@@ -43,5 +43,41 @@ div#body{
   width: 100%;
   height: calc(100% - 50px);
   top: 50px;
-  background-color: #eee;
+  background-color: #ddd;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.card{
+  width: 240px;
+  height: 300px;
+  background-color: #f22;
+  margin: 10px;
+  grid-template-rows: 2;
+  border-radius: 5px !important;
+  overflow: hidden;
+  box-shadow: 0px 10px 10px -5px rgba(0,0,0,.3);
+}
+
+div.card div.image{
+  display: grid;
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(src/violet_evergarden.jpg);
+}
+
+div.card div.info{
+  display: grid;
+  height: 50px;
+  background-image: linear-gradient(#fff,#eee);
+}
+
+div.card div.info a{
+  display: grid;
+  grid-template-rows: 2;
+  justify-content: center;
+  align-items: center;
 }

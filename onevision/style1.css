@@ -9,8 +9,17 @@ body{
   margin: 100px;
 }
 
-h1, div.articulo a{color: #fff;}
+h1#titulo{
+  text-align: center;
+  text-decoration: underline;
+}
 
-div.articulo a{text-decoration: underline}
+h1, h2, div.articulo a{color: #fff;}
+
+div.articulo a{
+  text-decoration: underline;
+  display: list-item;
+  margin: 15px;
+}
 
 div.articulo a:hover{color: #ddd;}

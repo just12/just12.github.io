@@ -1,0 +1,16 @@
+*{
+  font-family: sans-serif;
+  transition: .2s;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #222;
+  margin: 100px;
+}
+
+h1, div.articulo a{color: #fff;}
+
+div.articulo a{text-decoration: underline}
+
+div.articulo a:hover{color: #ddd;}
